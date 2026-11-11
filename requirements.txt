@@ -1,0 +1,14 @@
+# 虚假新闻（谣言）检测系统 —— 依赖清单
+# 安装：pip install -r requirements.txt
+#
+# 说明：torch 默认安装 CPU 版本；如使用 NVIDIA GPU 加速，请按官网指引安装对应 CUDA 版本，
+# 例如（CUDA 12.6）：pip install torch --index-url https://download.pytorch.org/whl/cu126
+
+numpy
+pandas
+scikit-learn
+jieba
+pyarrow
+PyQt5
+matplotlib
+torch

@@ -1,0 +1,21 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 原始数据集（体积较大，可用 src/download_data.py 重新下载）
+data/raw/
+
+# 临时与截图目录
+.screenshots/

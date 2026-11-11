@@ -1,0 +1,54 @@
+{
+  "model": "TextCNN",
+  "key": "textcnn",
+  "val": {
+    "accuracy": 0.8514,
+    "precision": 0.8889,
+    "recall": 0.7482,
+    "f1": 0.8125,
+    "macro_f1": 0.8447,
+    "confusion_matrix": [
+      [
+        171,
+        13
+      ],
+      [
+        35,
+        104
+      ]
+    ]
+  },
+  "test": {
+    "accuracy": 0.845,
+    "precision": 0.9009,
+    "recall": 0.7194,
+    "f1": 0.8,
+    "macro_f1": 0.8367,
+    "confusion_matrix": [
+      [
+        345,
+        22
+      ],
+      [
+        78,
+        200
+      ]
+    ]
+  },
+  "train_seconds": 20.7,
+  "config": {
+    "embed_dim": 128,
+    "num_filters": 100,
+    "kernel_sizes": [
+      2,
+      3,
+      4
+    ],
+    "batch_size": 64,
+    "lr": 0.001,
+    "epochs": 15,
+    "max_len": 100,
+    "device": "cuda"
+  },
+  "best_val_f1": 0.8125
+}
