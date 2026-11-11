@@ -1,6 +1,6 @@
 # 虚假新闻（谣言）检测系统 —— 自然语言处理课程设计
 
-安徽理工大学 · 人工智能学院 · 智能科学系 课程设计
+
 
 ## 一、项目简介
 
@@ -32,21 +32,21 @@ Song et al., 2018）为基础，使用 **Python** 实现虚假新闻（谣言）
 自然语言处理课设/
 ├── data/
 │   ├── raw/                  # 原始数据集（CED 微博原文 + 汇总 jsonl）
-│   └── dataset.csv           # 预处理后数据集（成员李宇航产出）
+│   └── dataset.csv           # 预处理后数据集（成员产出）
 ├── models/                   # 训练得到的模型文件
-│   ├── lg.joblib / nb.joblib / svm.joblib / rf.joblib   # 成员朱亮
-│   └── textcnn.pt / textcnn_vocab.json                  # 成员王达明
+│   ├── lg.joblib / nb.joblib / svm.joblib / rf.joblib   # 成员
+│   └── textcnn.pt / textcnn_vocab.json                  # 成员
 ├── results/                  # 实验结果
-│   ├── dataset_stats.json            # 数据统计（成员李宇航）
-│   ├── traditional_metrics.json      # 传统模型指标（成员朱亮）
-│   └── textcnn_metrics.json          # TextCNN 指标（成员王达明）
+│   ├── dataset_stats.json            # 数据统计（成员）
+│   ├── traditional_metrics.json      # 传统模型指标（成员）
+│   └── textcnn_metrics.json          # TextCNN 指标（成员）
 ├── src/
 │   ├── common.py             # 公共模块（路径、清洗、分词、IO）
-│   ├── download_data.py      # 数据集下载          —— 成员李宇航
-│   ├── preprocess.py         # 数据预处理          —— 成员李宇航
-│   ├── traditional.py        # 传统机器学习模型     —— 成员朱亮
-│   ├── textcnn.py            # TextCNN 深度学习模型 —— 成员王达明
-│   ├── gui.py                # PyQt5 可视化界面     —— 成员汪泽璐
+│   ├── download_data.py      # 数据集下载          —— 成员
+│   ├── preprocess.py         # 数据预处理          —— 成员
+│   ├── traditional.py        # 传统机器学习模型     —— 成员
+│   ├── textcnn.py            # TextCNN 深度学习模型 —— 成员
+│   ├── gui.py                # PyQt5 可视化界面     —— 成员
 │   └── run_all.py            # 一键训练全流程
 └── README.md
 ```
